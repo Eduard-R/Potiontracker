@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Elixiere</title>
+    <link rel="stylesheet" href="styles_cards.css" />
+    <script src="app.js"></script>
+</head>
+<body>
+<h1>Experimentelle Elixiere</h1>
+    <div class="card-container">
+        <div class="card" data-potion="Boldness">
+            <img src="img/Boldness.png" alt="Boldness" />
+            <p>Der Trinker kann 1W4 würfeln und die gewürfelte Zahl für die nächste Minute zu jedem Angriffswurf und Rettungswurf hinzufügen.</p>
+            <textarea class="quantity-display" readonly></textarea>
+            <div class="btn-container">
+                <button class="potion-btn add-btn">+</button>
+                <button class="potion-btn consume-btn">-</button>
+            </div>
+        </div>
+        <div class="card" data-potion="Flight">
+            <img src="img/Flight.png" alt="Flight" />
+            <p>Der Trinker kann für 10 Minuten mit einer Bewegungsrate von 3m fliegen.</p>
+            <textarea class="quantity-display" readonly></textarea>
+            <div class="btn-container">
+                <button class="potion-btn add-btn">+</button>
+                <button class="potion-btn consume-btn">-</button>
+            </div>
+        </div>
+        <div class="card" data-potion="Healing">
+            <img src="img/Healing.png" alt="Healing" />
+            <p>Der Trinker erhält eine Anzahl an Trefferpunkten zurück, die 2W8 plus deinem Intelligenz-Modifikator entspricht.</p>
+            <textarea class="quantity-display" readonly></textarea>
+            <div class="btn-container">
+                <button class="potion-btn add-btn">+</button>
+                <button class="potion-btn consume-btn">-</button>
+            </div>
+        </div>
+        <div class="card" data-potion="Resilience">
+            <img src="img/Resilience.png" alt="Resilience" />
+            <p>Der Trinker erhält für 10 Minuten einen Bonus von +1 auf seine Rüstungsklasse (RK).</p>
+            <textarea class="quantity-display" readonly></textarea>
+            <div class="btn-container">
+                <button class="potion-btn add-btn">+</button>
+                <button class="potion-btn consume-btn">-</button>
+            </div>
+        </div>
+        <div class="card" data-potion="Swiftness">
+            <img src="img/Swiftness.png" alt="Swiftness" />
+            <p>Der Trinker erhält einen Bonus von 3m auf seine Bewegungsrate.</p>
+            <textarea class="quantity-display" readonly></textarea>
+            <div class="btn-container">
+                <button class="potion-btn add-btn">+</button>
+                <button class="potion-btn consume-btn">-</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,104 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-image: url('img/Background.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 20px;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.card {
+    width: 200px;
+    background-image: url('img/vintage-grunge.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: transform 0.3s;
+    position: relative; /* Hinzugefügt für absolute Positionierung der unteren Elemente */
+    padding-bottom: 100px; /* Zusätzlicher Platz für die unteren Elemente */
+    min-height: 350px; /* Mindesthöhe für alle Karten */
+}
+
+.card img {
+    width: 100%;
+    height: 150px;
+    object-fit: contain;
+    margin-bottom: 10px;
+}
+
+.card p {
+    flex-grow: 1; /* Erlaubt dem Text, den verfügbaren Platz einzunehmen */
+    min-height: 120px; /* Mindesthöhe für Textblöcke */
+}
+
+.quantity-display {
+    background-color: #fab701;
+    width: 80%;
+    text-align: center;
+    font-size: 24px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 10px 0;
+    resize: none;
+    height: 40px;
+    position: absolute;
+    bottom: 80px; /* Position von unten */
+    left: 7%;
+}
+
+.btn-container {
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 30px; /* Position von unten */
+    left: 10%;
+}
+
+.potion-btn {
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.add-btn {
+    background-color: #003d02;
+    color: white;
+}
+
+.add-btn:hover {
+    background-color: #45a049;
+}
+
+.consume-btn {
+    background-color: #660801;
+    color: white;
+}
+
+.consume-btn:hover {
+    background-color: #d32f2f;
+}
+
+h1 {
+    text-align: center;
+    color: #fab701;
+    margin-bottom: 30px;
+}
