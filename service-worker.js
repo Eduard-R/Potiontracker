@@ -5,6 +5,7 @@ const URLS_TO_CACHE = [
   '/styles_cards.css',
   '/app.js',
   '/icons/icon.png',
+  '/icons/favicon.png',
   '/img/Background.png',
   '/img/Boldness.png',
   '/img/Flight.png',
