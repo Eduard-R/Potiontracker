@@ -12,7 +12,8 @@ const URLS_TO_CACHE = [
     '/img/Healing.png',
     '/img/Resilience.png',
     '/img/Swiftness.png',
-    '/img/vintage-grunge.jpg'
+    '/img/vintage-grunge.jpg',
+    '/img/Alchemy_jug.png'
 ];
 
 // Installieren

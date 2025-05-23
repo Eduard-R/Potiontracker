@@ -42,7 +42,7 @@ body {
 
 .card p {
     flex-grow: 1; /* Erlaubt dem Text, den verfügbaren Platz einzunehmen */
-    min-height: 120px; /* Mindesthöhe für Textblöcke */
+    min-height: 5px; /* Mindesthöhe für Textblöcke */
 }
 
 .quantity-display {
